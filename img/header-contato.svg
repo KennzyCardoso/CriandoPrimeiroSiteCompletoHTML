@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="220" viewBox="0 0 1020 220">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#581c87"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>
+  <rect width="1020" height="220" fill="url(#g)"/>
+  <circle cx="900" cy="40" r="120" fill="#ffffff" opacity="0.08"/>
+  <circle cx="820" cy="210" r="80" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(60 60)" fill="#ffffff"><path d="M20 5 h20 l8 25 -12 8 a55 55 0 0 0 26 26 l8 -12 25 8 v20 a10 10 0 0 1 -10 10 A85 85 0 0 1 10 15 a10 10 0 0 1 10 -10z"/></g>
+  <text x="190" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Fale Conosco</text>
+  <text x="190" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#e6fffb">Estamos prontos para atender você</text>
+</svg>

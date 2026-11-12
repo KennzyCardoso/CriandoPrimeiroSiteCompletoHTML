@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #134e4a;
+    padding: 10px 20px 0px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    margin-bottom: 12px;
+}
+.menu a {
+    color: #ccfbf1;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.header {
+    background-color: #0f766e;
+    min-height: 150px;
+}
+.header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content h1, .content h2 {
+    color: #0f766e;
+}
+.footer {
+    background-color: #134e4a;
+    color: #ccfbf1;
+    min-height: 150px;
+    padding: 20px;
+}
+.footer a {
+    color: #ffffff;
+}
+
+/* Tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 8px 12px;
+    text-align: center;
+}
+thead th {
+    background-color: #0f766e;
+    color: #ffffff;
+}
+tbody th {
+    text-align: left;
+    background-color: #f0fdfa;
+}
+caption {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* Formulário */
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    font: inherit;
+}
+button {
+    margin-top: 12px;
+    padding: 8px 20px;
+    font: inherit;
+    cursor: pointer;
+}
